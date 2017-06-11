@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS DevChallenge Conway Game of Life</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<nav>
+	<div class="nav">
+		<button id="start">Start</button>
+		<button id="reset">Reset</button>
+		<button id="next">Next</button>
+		<label>Speed Control</label>
+		<input type="range" 
+			id="speed"
+			name="speed"
+		 	min="100"
+		 	max="2000"
+		 	value="100">
+		<h1>Current iteration is <span id="iteration"></span></h1>
+		<p>click on cell to toggle its color</p>
+	</div>
+	</nav>
+</header>
+<div class="table" id="table1">
+</div>
+	
+<script type="text/javascript" src="script.js"></script>	
+
+</body>
+</html>
